@@ -279,3 +279,81 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:14:20.622
 !MESSAGE Boot project ADDED: custom-partitioner
+!SESSION 2024-07-25 18:19:34.175 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/young/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/young/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-25 18:19:35.164
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-25 18:19:38.258
+!MESSAGE Logback config file: /Users/young/Desktop/repository-project/backend-space/kafka-spring/kafka-chapter3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-25 18:19:38.429
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-25 18:19:38.429
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-25 18:19:38.623
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-25 18:19:38.623
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.268
+!MESSAGE Boot project ADDED: custom-partitioner
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.268
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.289
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.291
+!MESSAGE Boot project ADDED: producer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.293
+!MESSAGE Boot project ADDED: producer-asyncCallback
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.293
+!MESSAGE Boot project ADDED: producer-syncCallback
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-25 18:19:40.301
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/young/Desktop/repository-project/backend-space/kafka-spring/kafka-chapter3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721899180300
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:19:40.302
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-25 18:19:40.306
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 61072
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:21:15.641
+!MESSAGE Classpath changed for project: producer-syncCallback
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:21:15.641
+!MESSAGE Boot project REMOVED: producer-syncCallback
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:21:49.335
+!MESSAGE Classpath changed for project: producer-syncCallback
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:21:50.759
+!MESSAGE Classpath changed for project: producer-syncCallback
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-25 18:21:50.759
+!MESSAGE Boot project ADDED: producer-syncCallback

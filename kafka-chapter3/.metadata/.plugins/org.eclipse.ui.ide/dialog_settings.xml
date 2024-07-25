@@ -47,9 +47,9 @@
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="405"/>
+			<item key="DIALOG_X_ORIGIN" value="406"/>
 			<item key="DIALOG_Y_ORIGIN" value="85"/>
-			<item key="DIALOG_WIDTH" value="589"/>
+			<item key="DIALOG_WIDTH" value="586"/>
 			<item key="DIALOG_HEIGHT" value="703"/>
 			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 		</section>
@@ -64,7 +64,7 @@
 			<item value="/Users/young/Desktop/repository-project/backend-space/kafka-spring/kafka-chapter3"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="231"/>
+			<item key="DIALOG_X_ORIGIN" value="406"/>
 			<item key="DIALOG_Y_ORIGIN" value="85"/>
 			<item key="DIALOG_WIDTH" value="921"/>
 			<item key="DIALOG_HEIGHT" value="627"/>
