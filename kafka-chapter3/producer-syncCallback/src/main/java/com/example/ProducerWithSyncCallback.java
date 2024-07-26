@@ -17,7 +17,6 @@ public class ProducerWithSyncCallback {
 
     public static void main(String[] args) {
 
-    	
         Properties configs = new Properties();
         configs.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVERS);
         configs.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
